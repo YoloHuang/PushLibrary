@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PushLibrary</string>
+
+    <string name="tip_loginIn">注册推送成功</string>
+    <string name="tip_loginIn_failed">注册推送失败</string>
+    <string name="tip_setalias">设置别名成功</string>
+    <string name="tip_setalias_failed">设置别名失败</string>
+    <string name="tip_loginOut">取消推送成功</string>
+    <string name="tip_loginOut_ailed">取消推送失败</string>
+</resources>

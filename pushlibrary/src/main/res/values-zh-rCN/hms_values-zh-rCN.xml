@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connect_server_fail_prompt_toast">"无法连接服务器，请稍后重试"</string>
+    <string name="getting_message_fail_prompt_toast">"无法获取信息，请稍后重试"</string>
+    <string name="hms_abort" priority="translator">"终止"</string>
+    <string name="hms_abort_message" priority="translator">"是否终止下载？"</string>
+    <string name="hms_bindfaildlg_message" priority="LT">"%1$s无法正常使用华为移动服务。请尝试打开“手机管家”或“设置”，开启%2$s的所有权限（“自启动”、“关联启动”等），并重试。"</string>
+    <string name="hms_cancel" priority="translator">"取消"</string>
+    <string name="hms_check_failure" priority="translator">"检查华为移动服务更新失败。"</string>
+    <string name="hms_check_no_update" priority="translator">"华为移动服务已经是最新版本"</string>
+    <string name="hms_checking" priority="translator">"正在检查华为移动服务更新，请稍候..."</string>
+    <string name="hms_confirm" priority="translator">"知道了"</string>
+    <string name="hms_download_failure" priority="translator">"下载华为移动服务安装包失败。"</string>
+    <string name="hms_download_no_space" priority="translator">"剩余空间不足，无法下载。"</string>
+    <string name="hms_download_retry" priority="translator">"下载华为移动服务失败。是否重试？"</string>
+    <string name="hms_downloading" priority="translator">"正在下载华为移动服务 | 已完成：%d%%"</string>
+    <string name="hms_downloading_loading" priority="LT">"正在加载"</string>
+    <string name="hms_downloading_new" priority="LT">"正在加载华为移动服务"</string>
+    <string name="hms_gamebox_name" priority="translator">"游戏中心"</string>
+    <string name="hms_install" priority="translator">"安装"</string>
+    <string name="hms_install_message" priority="translator">"您尚未安装华为移动服务，安装之后才可用此功能。是否安装？"</string>
+    <string name="hms_retry" priority="translator">"重试"</string>
+    <string name="hms_update" priority="translator">"更新"</string>
+    <string name="hms_update_message" priority="translator">"华为移动服务版本太旧，更新到最新版本才可用此功能。是否更新？"</string>
+    <string name="hms_update_message_new" priority="LT">"该服务需安装以下应用的最新版本才能使用：\n\n·%1$s"</string>
+    <string name="hms_update_title" priority="translator">"华为移动服务"</string>
+    <string name="no_available_network_prompt_toast">"网络未连接，请检查网络设置"</string>
+    <string name="third_app_dl_cancel_download_prompt_ex">是否取消安装？</string>
+    <string name="third_app_dl_install_failed">安装失败</string>
+    <string name="third_app_dl_sure_cancel_download">"取消安装"</string>
+    <string name="upsdk_app_dl_installing">正在下载华为应用市场</string>
+    <string name="upsdk_app_download_info_new">"安装"</string>
+    <string name="upsdk_app_size">大小</string>
+    <string name="upsdk_app_version">版本</string>
+    <string name="upsdk_cancel">取消</string>
+    <string name="upsdk_checking_update_prompt">正在检测新版本，请稍候...</string>
+    <string name="upsdk_choice_update">"有可用更新，快去升级吧。"</string>
+    <string name="upsdk_detail">详情</string>
+    <string name="upsdk_install">"需要使用华为官方应用市场才能升级，是否现在安装？"</string>
+    <string name="upsdk_ota_app_name">应用</string>
+    <string name="upsdk_ota_cancel">以后再说</string>
+    <string name="upsdk_ota_force_cancel_new">退出应用</string>
+    <string name="upsdk_ota_notify_updatebtn">立即更新</string>
+    <string name="upsdk_ota_title">发现新版本</string>
+    <string name="upsdk_update_check_no_new_version">您现在使用的已经是最新版本</string>
+    <string name="upsdk_updating">正在更新</string>
+
+
+
+    <string name="hms_push_channel" priority="LT">"默认"</string>
+
+
+
+    <string name="hms_game_auto_hide_notice" priority="LT">"拖到此处隐藏"</string>
+    <string name="hms_game_floatwindow_click_fail_toast" priority="translator">"请尝试打开“手机管家”或“设置”，开启华为游戏中心的 “关联启动” 权限，并重试。"</string>
+    <string name="hms_game_hide_guide_btn_cancel" priority="LT">"取消"</string>
+    <string name="hms_game_hide_guide_btn_confirm" priority="LT">"隐藏"</string>
+    <string name="hms_game_hide_guide_content_nosensor" priority="LT">"浮标隐藏后，重启应用可重新显示浮标。是否隐藏？"</string>
+    <string name="hms_game_hide_guide_content_sensor" priority="LT">"浮标隐藏后，翻转设备可重新显示浮标。是否隐藏？"</string>
+    <string name="hms_game_hide_guide_noremind" priority="LT">"不再提示"</string>
+    <string name="hms_game_hide_guide_title" priority="LT">"隐藏浮标"</string>
+    <string name="hms_game_login_notice" priority="LT">"欢迎，华为用户 %1$s"</string>
+</resources>

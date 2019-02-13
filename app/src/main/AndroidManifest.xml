@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yolo.pushlibrary">
+
+    <application
+        android:name="com.yolo.pushlibrary.PushApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- vivo 推送的ID 和 key -->
+
+        <meta-data
+            android:name="com.vivo.push.api_key"
+            android:value="b4bcea82-9dbf-45aa-82d8-5555bc65257e"/>
+        <meta-data
+            android:name="com.vivo.push.app_id"
+            android:value="10937"/>
+
+        <!-- oppo 推送暂不支持个人开发者，所以无法在demo中演示 -->
+
+        <meta-data
+            android:name="OPPO_APP_KEY"
+            android:value="" />
+
+        <meta-data
+            android:name="OPPO_APP_SECRET"
+            android:value="" />
+
+        <!-- 华为推送 ID-->
+
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value="appid=100612743" />
+
+        <!--//小米推送的AppKey ,APPID ****请务必在数值中间添加一个空格，否则会发生数值变化**** -->
+
+        <meta-data
+            android:name="XMPUSH_APPKEY"
+            android:value="5851794   217581" />
+
+        <meta-data
+            android:name="XMPUSH_APPID"
+            android:value="288230376   1517942581" />
+
+        <!--//小米推送的AppKey ,APPID ****请务必在数值中间添加一个空格，否则会发生数值变化**** -->
+
+
+        <!-- JPUSH_CHANNEL 是为了方便开发者统计APK分发渠道。-->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="default" />
+        <!-- Required. AppKey copied from Portal -->
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="4bc48df35351d4ccf480561f" />
+
+        <receiver android:name="com.yolo.pushlibrary.TestPushReceiver">
+            <intent-filter>
+                <action android:name="com.kidosc.pushlibrary.ACTION_RECEIVE_NOTIFICATION"/>
+                <action android:name="com.kidosc.pushlibrary.ACTION_RECEIVE_NOTIFICATION_CLICK"/>
+                <action android:name="com.kidosc.pushlibrary.ACTION_RECEIVE_MESSAGE"/>
+                <action android:name="com.kidosc.pushlibrary.ACTION_RECEIVE_TOKEN_SET"/>
+                <action android:name="com.kidosc.pushlibrary.ACTION_RECEIVE_INIT_RESULT"/>
+                <action android:name="com.kidosc.pushlibrary.ACTION_RECEIVE_LOGIN_OUT"/>
+                <action android:name="com.kidosc.pushlibrary.ACTION_RECEIVE_SET_ALIAS"/>
+                <category android:name="${applicationId}" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

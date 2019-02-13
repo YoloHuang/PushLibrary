@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PushLibrary</string>
+
+    <string name="loginin">注册推送</string>
+    <string name="loginout">取消推送</string>
+    <string name="setalias">设置别名</string>
+    <string name="title">当前推送平台为: </string>
+
+    <string name="notification_receive">收到通知: </string>
+
+    <string name="message_receive">收到透传通知: </string>
+
+    <string name="notification_click">点击通知: </string>
+
+    <string name="token_seted">获取到的token为: </string>
+
+    <string name="tip_alias">设置的alias不能为空</string>
+
+
+</resources>

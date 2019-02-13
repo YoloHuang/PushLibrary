@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp">
+
+    <TextView
+        android:id="@+id/hms_game_id_buoy_hide_guide_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        />
+
+    <com.huawei.hms.support.api.game.ui.GifImageView
+        android:id="@+id/hms_game_id_buoy_hide_guide_gif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hms_game_id_buoy_hide_guide_text"
+        android:src="@drawable/hms_game_hide_guide"/>
+
+    <LinearLayout
+        android:id="@+id/hms_game_id_buoy_hide_guide_checklayout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hms_game_id_buoy_hide_guide_gif">
+
+        <CheckBox
+            android:id="@+id/hms_game_id_buoy_hide_guide_remind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hms_game_hide_guide_noremind"
+            android:textSize="13sp"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

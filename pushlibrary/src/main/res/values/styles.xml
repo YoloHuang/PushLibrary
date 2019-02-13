@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="LoadTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>
