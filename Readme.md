@@ -2,7 +2,7 @@
 
 
 ### 前言
-由于项目需要，开发了一个整合了所有主流厂商的推送框架。本框架集合了小米，华为，OPPO，VIVO，极光等五家推送。其中我们可以在初始化时选择是否支持这四家厂商推送。
+由于项目需要，开发了一个整合了所有主流厂商的推送框架。本框架集合了小米，华为，OPPO，VIVO，极光等五家推送。其中我们可以在初始化时选择是否支持这四家厂商推送。先贴下项目路径：[PushLibrary](https://github.com/YoloHuang/PushLibrary)   
 
 目前的推送逻辑是，如果初始化时都支持，会根据用户手机型号来自动判断使用哪家的推送。如果用户手机不属于当前四大厂商，则使用极光推送。考虑到四大厂商推送也可能不支持早期版本的手机，会有在初始化出错之后选择极光推送的容错处理。（后续可能会继续加入个推，友盟推送等平台推送，但我们日常开发中只需要添加一个就行了）
 
@@ -41,7 +41,7 @@ allprojects {
 在APP的`build.gradle`中添加如下依赖，版本号以最新为准
 
 ```
-implementation 'com.github.YoloHuang:PushLibrary:v1.2'
+    implementation 'com.github.YoloHuang:PushLibrary:v1.0'
 ```
 
 #### 2.在`AndroidManifest.xml`的`application`标签下添加厂商推送的ID和key等相关资源（如果只支持部分厂商，只需要添加支持的厂商信息就行）
